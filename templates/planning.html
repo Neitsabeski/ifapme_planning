@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Planning{% endblock %}
+{% block content %}
+<h1>Planning</h1>
+
+{% if data %}
+    <h2>Planning du groupe : {{ group_name }}</h2>
+    <p>Année : {{ data['annee'] }}</p>
+
+    <h2>Professeurs</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr><th>Matière</th><th>Nom</th></tr>
+        </thead>
+        <tbody>
+            {% for matiere, prof in data['professeurs'].items() %}
+            <tr><td>{{ matiere }}</td><td>{{ prof }}</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Planning</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr><th>ID</th><th>Date</th><th>Jour</th><th>Semaine</th><th>Cours</th><th>Heure</th></tr>
+        </thead>
+        <tbody>
+            {% for item in data['planning'] %}
+            <tr class="{% if item['date'] < today %}text-muted text-decoration-line-through{% endif %}">
+                <td>{{ item['id'] }}</td>
+                <td>{{ item['date'] }}</td>
+                <td>{{ item['jour'] }}</td>
+                <td>{{ item['semaine'] }}</td>
+                <td>{{ item['cours'] }}</td>
+                <td>{{ item['heure_debut'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <div class="alert alert-warning" role="alert">
+        Aucun planning disponible. Importez un PDF d'abord.
+    </div>
+    
+    <a href="{{ url_for('import_pdf') }}" class="btn btn-primary mt-3">Importer un PDF</a>
+{% endif %}
+{% endblock %}
+

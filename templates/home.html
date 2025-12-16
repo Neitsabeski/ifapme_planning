@@ -1,0 +1,52 @@
+
+{% extends "base.html" %}
+{% block title %}Accueil{% endblock %}
+{% block content %}
+<h1>Accueil</h1>
+<p>Date du jour : <strong>{{ today }}</strong></p>
+
+{% if today_course %}
+    <h2>Cours prévu aujourd'hui</h2>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr><th>ID</th><th>Date</th><th>Jour</th><th>Semaine</th><th>Cours</th><th>Heure</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ today_course['id'] }}</td>
+                <td>{{ today_course['date'] }}</td>
+                <td>{{ today_course['jour'] }}</td>
+                <td>{{ today_course['semaine'] }}</td>
+                <td>{{ today_course['cours'] }}</td>
+                <td>{{ today_course['heure_debut'] }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% else %}
+    <div class="alert alert-info" role="alert">
+        Aucun cours prévu aujourd'hui.
+    </div>
+{% endif %}
+
+{% if next_courses %}
+    <h2>Les 3 prochains cours</h2>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr><th>ID</th><th>Date</th><th>Jour</th><th>Semaine</th><th>Cours</th><th>Heure</th></tr>
+        </thead>
+        <tbody>
+            {% for item in next_courses %}
+                {% set couleur = item['cours'] | text_to_color %}
+                <tr>
+                    <td>{{ item['id'] }}</td>
+                    <td>{{ item['date'] }}</td>
+                    <td>{{ item['jour'] }}</td>
+                    <td>{{ item['semaine'] }}</td>
+                    <td>{{ item['cours'] }}</td>
+                    <td>{{ item['heure_debut'] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endif %}
+{% endblock %}

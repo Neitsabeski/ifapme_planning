@@ -1,0 +1,508 @@
+{
+    "groupes": {
+        "1X81CO Gpe B administrateur res & sys- 25-26 (V1/B/X81/25/0/N/185894)": {
+            "annee": "2025-2026",
+            "professeurs": {
+                "ANG": "Prof inconnu",
+                "BPR": "MASSOTTE LOIC",
+                "LAB": "KIMMES Jean-François",
+                "LIN": "PIRON François",
+                "OSL": "HAGELSTEIN Adrien"
+            },
+            "planning": [
+                {
+                    "id": 1,
+                    "date": "2025-10-20",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 2,
+                    "date": "2025-11-03",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 3,
+                    "date": "2025-11-06",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 4,
+                    "date": "2025-11-10",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 5,
+                    "date": "2025-11-13",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 6,
+                    "date": "2025-11-17",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 7,
+                    "date": "2025-11-24",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 8,
+                    "date": "2025-12-01",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 9,
+                    "date": "2025-12-04",
+                    "cours": "LIN",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 10,
+                    "date": "2025-12-08",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 11,
+                    "date": "2025-12-10",
+                    "cours": "LIN",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 12,
+                    "date": "2025-12-11",
+                    "cours": "LIN",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 13,
+                    "date": "2025-12-15",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 14,
+                    "date": "2025-12-17",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 15,
+                    "date": "2025-12-18",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 16,
+                    "date": "2026-01-05",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 17,
+                    "date": "2026-01-07",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 18,
+                    "date": "2026-01-08",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 19,
+                    "date": "2026-01-12",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 20,
+                    "date": "2026-01-15",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 21,
+                    "date": "2026-01-19",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 22,
+                    "date": "2026-01-21",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 23,
+                    "date": "2026-01-22",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 24,
+                    "date": "2026-01-24",
+                    "cours": "ANG",
+                    "heure_debut": "08:30"
+                },
+                {
+                    "id": 25,
+                    "date": "2026-01-26",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 26,
+                    "date": "2026-01-28",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 27,
+                    "date": "2026-01-29",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 28,
+                    "date": "2026-02-02",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 29,
+                    "date": "2026-02-04",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 30,
+                    "date": "2026-02-05",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 31,
+                    "date": "2026-02-09",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 32,
+                    "date": "2026-02-11",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 33,
+                    "date": "2026-02-12",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 34,
+                    "date": "2026-02-18",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 35,
+                    "date": "2026-02-19",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 36,
+                    "date": "2026-02-23",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 37,
+                    "date": "2026-02-25",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 38,
+                    "date": "2026-02-26",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 39,
+                    "date": "2026-02-28",
+                    "cours": "ANG",
+                    "heure_debut": "08:30"
+                },
+                {
+                    "id": 40,
+                    "date": "2026-03-02",
+                    "cours": "BPR",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 41,
+                    "date": "2026-03-04",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 42,
+                    "date": "2026-03-05",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 43,
+                    "date": "2026-03-09",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 44,
+                    "date": "2026-03-11",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 45,
+                    "date": "2026-03-12",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 46,
+                    "date": "2026-03-16",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 47,
+                    "date": "2026-03-18",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 48,
+                    "date": "2026-03-19",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 49,
+                    "date": "2026-03-23",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 50,
+                    "date": "2026-03-25",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 51,
+                    "date": "2026-03-26",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 52,
+                    "date": "2026-03-30",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 53,
+                    "date": "2026-04-01",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 54,
+                    "date": "2026-04-02",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 55,
+                    "date": "2026-04-08",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 56,
+                    "date": "2026-04-09",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 57,
+                    "date": "2026-04-13",
+                    "cours": "LIN",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 58,
+                    "date": "2026-04-15",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 59,
+                    "date": "2026-04-16",
+                    "cours": "LIN",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 60,
+                    "date": "2026-04-20",
+                    "cours": "LIN",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 61,
+                    "date": "2026-04-22",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 62,
+                    "date": "2026-04-23",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 63,
+                    "date": "2026-04-30",
+                    "cours": "ANG",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 64,
+                    "date": "2026-05-04",
+                    "cours": "LIN",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 65,
+                    "date": "2026-05-06",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 66,
+                    "date": "2026-05-07",
+                    "cours": "ANG",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 67,
+                    "date": "2026-05-11",
+                    "cours": "LIN",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 68,
+                    "date": "2026-05-13",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 69,
+                    "date": "2026-05-18",
+                    "cours": "LIN",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 70,
+                    "date": "2026-05-20",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 71,
+                    "date": "2026-05-21",
+                    "cours": "ANG",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 72,
+                    "date": "2026-05-27",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 73,
+                    "date": "2026-05-28",
+                    "cours": "ANG",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 74,
+                    "date": "2026-06-03",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 75,
+                    "date": "2026-06-04",
+                    "cours": "ANG",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 76,
+                    "date": "2026-06-10",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 77,
+                    "date": "2026-06-11",
+                    "cours": "ANG",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 78,
+                    "date": "2026-06-17",
+                    "cours": "LAB",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 79,
+                    "date": "2026-06-18",
+                    "cours": "ANG",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 80,
+                    "date": "2026-06-22",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 81,
+                    "date": "2026-06-25",
+                    "cours": "ANG",
+                    "heure_debut": "18:15"
+                },
+                {
+                    "id": 82,
+                    "date": "2026-06-29",
+                    "cours": "OSL",
+                    "heure_debut": "18:15"
+                }
+            ]
+        }
+    }
+}

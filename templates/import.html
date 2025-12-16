@@ -1,0 +1,10 @@
+
+{% extends "base.html" %}
+{% block title %}Import PDF{% endblock %}
+{% block content %}
+<h1>Importer un PDF</h1>
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="pdf" accept="application/pdf" class="form-control mb-3">
+    <button type="submit" class="btn btn-primary">Convertir</button>
+</form>
+{% endblock %}
