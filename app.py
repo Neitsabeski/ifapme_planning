@@ -4,8 +4,12 @@ import os, json
 from datetime import date
 from utils.pdf2json import pdf2json
 from datetime import date, datetime
+from config import Config
+
+
 
 app = Flask(__name__)
+app.config.from_object(Config)
 UPLOAD_FOLDER = "uploads"
 JSON_FOLDER = "json_data"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -105,5 +109,9 @@ def import_pdf():
             return redirect(url_for('planning'))
     return render_template('import.html')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(
+        host=app.config["HOST"],
+        port=app.config["PORT"],
+        debug=app.config["DEBUG"]
+    )
