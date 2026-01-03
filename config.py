@@ -2,7 +2,7 @@
 
 class Config:
     # Adresse IP sur laquelle Flask doit écouter
-    HOST = "192.168.138.235"
+    HOST = "127.0.0.1"
 
     # Port d'écoute
     PORT = 5000
